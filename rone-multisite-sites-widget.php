@@ -1,52 +1,56 @@
 <?php
 /*
- * RO Multisite Sites List Widget
- *
- * @package   RO Multisite Sites List Widget
- * @author    Tim Russell <tim@timrussell.com>
- * @author    Raging One <tim@ragingone.com>
- * @copyright Copyright (c) 2015, Raging One, Inc.
- * @license   GPL-2.0+
+ * @category            WordPress_Plugin
+ * @package             RO Multisite Sites List Widget
+ * @author              Tim Russell <tim@timrussell.com>
+ * @author              Raging One <tim@ragingone.com>
+ * @copyright           Copyright (c) 2015, Raging One, Inc.
+ * @license             GPL-2.0+
  *
  * @wordpress-plugin
- * Plugin Name:     RO Multisite Sites List Widget
- * Plugin URI:      http://www.ragingone.com/wordpress
- * Description:     This plugin adds a widget to list MultiSite Sites Link(s).
- * Version:         20150722.1
- * Author:          Tim Russell
- * Author URI:      http://timrussell.com/
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     rone-multisite-sites-widget
- * Domain Path:     /languages
- * GitHub Plugin URI: https://github.com/tdavidrussell/rone-multisite-sites-widget
- * GitHub Branch:   master
+ * Plugin Name:         RO Multisite Sites List Widget
+ * Plugin URI:          http://www.ragingone.com/wordpress
+ * Description:         This plugin adds a widget to list MultiSite Sites Link(s).
+ * Version:             20150729.1
+ * Author:              Tim Russell
+ * Author URI:          http://timrussell.com/
+ * License:             GPL-2.0+
+ * License URI:         http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:         rone-multisite-sites-widget
+ * Domain Path:         /languages
  *
- * Requires WP:       3.8
- * Requires PHP:      5.3
  *
- * Support URI:       http://ragingone.com/support
- * Documentation URI: http://ragingone.com/codex
+ * GitHub Plugin URI:   https://github.com/tdavidrussell/rone-multisite-sites-widget
+ * GitHub Branch:       master
+ *
+ * Requires WP:         3.8
+ * Requires PHP:        5.3
+ *
+ * Support URI:         http://ragingone.com/support
+ * Documentation URI:   http://ragingone.com/codex
  *
  * Tags: widget, multisite
  *
+*
+ * Released under the GPL license
+ * http://www.opensource.org/licenses/gpl-license.php
+ *
+ * This is an add-on for WordPress
+ * http://wordpress.org/
+ *
+ * **********************************************************************
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * **********************************************************************
 */
-/*  Copyright 2007-2014 Tim Russell (email: tim at ragingone.com)
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-*/
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

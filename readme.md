@@ -1,6 +1,6 @@
 ##Raging One Multisite Sites List Widget
 
-Adds a widget to list all MultiSite Sites as link(s).
+A widget to list all MultiSite Sites as link(s).
 
 __Contributors:__ [Tim Russell](https://github.com/tdavidrussell)   
 __Requires:__ 4.0   
