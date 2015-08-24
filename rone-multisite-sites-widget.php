@@ -11,7 +11,7 @@
  * Plugin Name:         RO Multisite Sites List Widget
  * Plugin URI:          http://www.ragingone.com/wordpress
  * Description:         This plugin adds a widget to list MultiSite Sites Link(s).
- * Version:             20150729.1
+ * Version:             20150824.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants ROMSSW_  Raging One Multisite Sites Widget **/
-define( 'ROMSSW_PLUGIN_VERSION', '20150722.1' );
+define( 'ROMSSW_PLUGIN_VERSION', '20150824.1' );
 define( 'ROMSSW_PLUGIN_DEBUG', false );
 //
 define( 'ROMSSW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
@@ -69,7 +69,7 @@ define( 'ROMSSW_THEME_URI', get_stylesheet_directory_uri() ); //Does not contain
 /**
  * Include widget class.
  */
-include( ROMSSW_PLUGIN_PATH . '/includes/class.rone-multisite-sites-widget.php');
+include( ROMSSW_PLUGIN_PATH . 'includes/class.rone-multisite-sites-widget.php');
 
 /**
  * Register our widget.
