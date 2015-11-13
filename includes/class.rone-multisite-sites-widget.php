@@ -98,7 +98,7 @@ class rone_multisite_list_widget extends WP_Widget {
 
 		<?php echo $after_widget; ?>
 
-	<?php
+		<?php
 	}
 
 	/**
@@ -151,10 +151,7 @@ class rone_multisite_list_widget extends WP_Widget {
 			<label for="<?php echo $this->get_field_id( 'open-window' ); ?>">Open Site in New Window</label>
 		</p>
 
-	<?php
+		<?php
 
 	}
 }// End of Class
-
-
-?>
