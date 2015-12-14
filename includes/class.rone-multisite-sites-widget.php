@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 class rone_multisite_list_widget extends WP_Widget {
 
 	// Setup Widget
-	function rone_multisite_list_widget() {
+	function __construct() {
 
 		// Widget settings.
 		$widget_ops = array( 'classname' => 'rone-multisite-list-widget', 'description' => __( 'MultiSite List Widget, displays site active in MultiSite.', 'rone-multisite-list-widget' ) );
