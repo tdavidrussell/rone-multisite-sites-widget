@@ -2,16 +2,16 @@
 /*
  * @category            WordPress_Plugin
  * @package             RO Multisite Sites List Widget
+ * @author              Tim Russell <githubber@timrussell.com>
  * @author              Tim Russell <tim@timrussell.com>
- * @author              Raging One <tim@ragingone.com>
- * @copyright           Copyright (c) 2015, Raging One, Inc.
+ * @copyright           Copyright (c) 2015.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Multisite Sites List Widget
- * Plugin URI:          http://www.ragingone.com/wordpress
+ * Plugin URI:          http://www.timrussell.com/wordpress-plugins
  * Description:         This plugin adds a widget to list MultiSite Sites Link(s).
- * Version:             20151214.1
+ * Version:             20151230.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
@@ -26,8 +26,8 @@
  * Requires WP:         3.8
  * Requires PHP:        5.3
  *
- * Support URI:         http://ragingone.com/support
- * Documentation URI:   http://ragingone.com/codex
+ * Support URI:         http://timrussell.com/wordpress-plugins
+ * Documentation URI:   http://timrussell.com/wordpress-plugins
  *
  * Tags: widget, multisite
  *
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants ROMSSW_  Raging One Multisite Sites Widget **/
-define( 'ROMSSW_PLUGIN_VERSION', '20151214.1' );
+define( 'ROMSSW_PLUGIN_VERSION', '20151230.1' );
 define( 'ROMSSW_PLUGIN_DEBUG', false );
 //
 define( 'ROMSSW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
@@ -69,16 +69,17 @@ define( 'ROMSSW_THEME_URI', get_stylesheet_directory_uri() ); //Does not contain
 /**
  * Include widget class.
  */
-include( ROMSSW_PLUGIN_PATH . 'includes/class.rone-multisite-sites-widget.php');
+include( ROMSSW_PLUGIN_PATH . 'includes/class.rone-multisite-sites-widget.php' );
 
 /**
  * Register our widget.
  *
  * @since 20141028.1
  */
-function rone_load_multisite_list_widget(){
+function rone_load_multisite_list_widget() {
 	register_widget( 'rone_multisite_list_widget' );
 }
+
 /**
  * Add function (hook action) to widgets_init that'll load  widget.
  * @since 20141028.1

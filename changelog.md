@@ -1,5 +1,8 @@
 ## Changelog
 
+#### 20151230.1
+* Updated: updated description and code formatting
+ 
 #### 20151214.1
 * Fixed: deprecated constructor 
 
