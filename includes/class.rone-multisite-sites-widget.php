@@ -27,7 +27,7 @@ class rone_multisite_list_widget extends WP_Widget {
 		$widget_settings = $this->wsettings();
 		//
 		//$this->WP_Widget( 'rone-multisite-widget', __( 'Raging One Multi Site List Widget', 'rone-multisite-list-widget' ), $widget_ops, $widget_settings );
-		parent::__construct( 'rone-multisite-widget', __( 'Raging One Multi Site List Widget', 'rone-multisite-list-widget' ), $widget_ops, $widget_settings );
+		parent::__construct( 'rone-multisite-widget', __( 'RO Multi Site List Widget', 'rone-multisite-list-widget' ), $widget_ops, $widget_settings );
 
 	}
 
@@ -35,7 +35,7 @@ class rone_multisite_list_widget extends WP_Widget {
 	function wsettings() {
 		//
 		$widget_settings = array(
-			'title'      => "Raging One MultiSite List Widget",
+			'title'      => "RO MultiSite List Widget",
 			'id'         => 0,
 			'open-blank' => 0,
 		);
