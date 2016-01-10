@@ -1,5 +1,8 @@
 ## Changelog
 
+#### 20160110.1
+* Updated: PHPDoc and description
+
 #### 20151230.1
 * Updated: updated description and code formatting
  
