@@ -1,8 +1,8 @@
 <?php
 /**
  * Widgets
- *
- * @package     Raging One
+ * @category    WordPress_Plugin
+ * @package     RO_Multisite_Site_List_Widget
  * @subpackage  Widgets
  * @copyright   Copyright (c) 2015, Tim Russell
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
