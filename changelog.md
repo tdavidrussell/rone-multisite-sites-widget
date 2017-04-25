@@ -1,5 +1,8 @@
 ## Changelog
 
+#### 20170425.1
+* Change: updated plugin description
+
 #### 20160110.1
 * Updated: PHPDoc and description
 

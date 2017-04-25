@@ -86,7 +86,7 @@ class rone_multisite_list_widget extends WP_Widget {
 		?>
 		<?php echo $before_widget; ?>
 		<?php echo $before_title . $title . $after_title; ?>
-		<ul>
+        <ul>
 			<?php
 
 			foreach ( $x_sl as $x_url => $sname ) {
@@ -94,7 +94,7 @@ class rone_multisite_list_widget extends WP_Widget {
 			}
 
 			?>
-		</ul>
+        </ul>
 
 		<?php echo $after_widget; ?>
 
@@ -140,16 +140,16 @@ class rone_multisite_list_widget extends WP_Widget {
 		$title       = esc_attr( $instance['title'] );
 		$open_window = esc_attr( $instance['open-window'] );
 		?>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?>
-				<input class="widefat" id="title" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>"/>
-			</label>
-		</p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?>
+                <input class="widefat" id="title" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>"/>
+            </label>
+        </p>
 
-		<p>
-			<input class="checkbox" type="checkbox" <?php checked( $instance['open-window'], 'on' ); ?> id="<?php echo $this->get_field_id( 'open-window' ); ?>" name="<?php echo $this->get_field_name( 'open-window' ); ?>"/>
-			<label for="<?php echo $this->get_field_id( 'open-window' ); ?>">Open Site in New Window</label>
-		</p>
+        <p>
+            <input class="checkbox" type="checkbox" <?php checked( $instance['open-window'], 'on' ); ?> id="<?php echo $this->get_field_id( 'open-window' ); ?>" name="<?php echo $this->get_field_name( 'open-window' ); ?>"/>
+            <label for="<?php echo $this->get_field_id( 'open-window' ); ?>">Open Site in New Window</label>
+        </p>
 
 		<?php
 

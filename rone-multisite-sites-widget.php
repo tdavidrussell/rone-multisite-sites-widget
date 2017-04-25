@@ -3,7 +3,6 @@
  * @category            WordPress_Plugin
  * @package             RO_Multisite_Site_List_Widget
  * @author              Tim Russell <githubber@timrussell.com>
- * @author              Tim Russell <tim@timrussell.com>
  * @copyright           Copyright (c) 2015.
  * @license             GPL-2.0+
  *
@@ -11,7 +10,7 @@
  * Plugin Name:         RO Multisite Sites List Widget
  * Plugin URI:          http://www.timrussell.com/wordpress-plugins
  * Description:         This plugin adds a widget to list MultiSite Sites Link(s).
- * Version:             20160110.1
+ * Version:             20170425.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
