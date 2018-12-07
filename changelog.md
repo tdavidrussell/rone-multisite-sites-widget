@@ -1,5 +1,9 @@
 ## Changelog
 
+#### 20181205.1
+* Changed: repo location
+* Updated: description
+
 #### 20170425.1
 * Change: updated plugin description
 

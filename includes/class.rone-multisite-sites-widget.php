@@ -8,6 +8,15 @@
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       20141028.1
  */
+
+
+/**
+ * Notes  for updating widget
+ * @link: https://stackoverflow.com/questions/47040109/trying-to-use-get-sites-and-make-a-shortcode-in-wordpress
+ *      https://www.rupokify.me/blog/tech/wordpress/list-blogs-subsites-wordpress-multisite-user/
+ *      https://developer.wordpress.org/reference/functions/get_sites/
+ *
+ */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
@@ -69,7 +78,7 @@ class rone_multisite_list_widget extends WP_Widget {
 				$x_path    = $info['path'];
 				$x_name    = get_blog_option( $x_blog_id, "blogname" );
 				$x_desc    = get_blog_option( $x_blog_id, "blogdescription" );
-				$x_desc    = get_blog_option( $x_blog_id, "blogdescription" );
+				//$x_desc    = get_blog_option( $x_blog_id, "blogdescription" );
 				if ( "on" == $open_blank ) {
 					$target = " target='_blank' ";
 				} else {
@@ -134,6 +143,8 @@ class rone_multisite_list_widget extends WP_Widget {
 	 */
 	function form( $instance ) {
 		$default_settings = $this->wsettings();
+
+		$open_window = "";
 
 		$instance = wp_parse_args( (array) $instance, $default_settings );
 		// Clean the Title var....
