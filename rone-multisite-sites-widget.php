@@ -3,14 +3,14 @@
  * @category            WordPress_Plugin
  * @package             RO_Multisite_Site_List_Widget
  * @author              Tim Russell <githubber@timrussell.com>
- * @copyright           Copyright (c) 2016-2017.
+ * @copyright           Copyright (c) 2017-2018.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Multisite Sites List Widget
  * Plugin URI:          https://www.timrussell.com/wordpress
  * Description:         This plugin adds a widget to list MultiSite Sites Link(s).
- * Version:             20170425.1
+ * Version:             20181205.1
  * Author:              Tim Russell
  * Author URI:          https://timrussell.com/
  * License:             GPL-2.0+
@@ -19,14 +19,14 @@
  * Domain Path:         /languages
  *
  *
- * GitHub Plugin URI:   https://github.com/tdavidrussell/rone-multisite-sites-widget
- * GitHub Branch:       master
+ * GitLab Plugin URI:   https://gitlab.com/tdavidrussell/rone-multisite-sites-widget
+ * GitLAb Branch:       master
  *
- * Requires WP:         4.6
- * Requires PHP:        5.3
+ * Requires WP:         4.8
+ * Requires PHP:        5.6
  *
- * Support URI:         http://timrussell.com/wordpress/
- * Documentation URI:   http://timrussell.com/wordpress/
+ * Support URI:         https://gitlab.com/tdavidrussell/rone-multisite-sites-widget
+ * Documentation URI:   https://gitlab.com/tdavidrussell/rone-multisite-sites-widget
  *
  * Tags: widget, multisite
  *
@@ -56,7 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants ROMSSW_  Raging One Multisite Sites Widget **/
-define( 'ROMSSW_PLUGIN_VERSION', '20160110.1' );
+define( 'ROMSSW_PLUGIN_VERSION', '20181205.1' );
 define( 'ROMSSW_PLUGIN_DEBUG', false );
 //
 define( 'ROMSSW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
